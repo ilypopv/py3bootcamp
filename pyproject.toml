@@ -1,18 +1,14 @@
 [project]
-name = "complete-python-3-bootcamp"
+name = "py3bootcamp"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-authors = [
-    { name = "Ilya Popov", email = "ilypopv@gmail.com" }
-]
+authors = [{ name = "Ilya Popov", email = "ilypopv@gmail.com" }]
 requires-python = ">=3.12"
-dependencies = [
-    "ipykernel>=7.3.0",
-]
+dependencies = ["ipykernel>=7.3.0"]
 
 [project.scripts]
-complete-python-3-bootcamp = "complete_python_3_bootcamp:main"
+py3bootcamp = "py3bootcamp:main"
 
 [build-system]
 requires = ["uv_build>=0.12.9,<0.13.0"]

@@ -3,3 +3,7 @@
 
 #macOS
 .DS_Store
+
+# Jupyter Artifcats
+.ipynb_checkpoints/
+*.ipynb_checkpoints
